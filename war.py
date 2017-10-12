@@ -1,4 +1,5 @@
 import time
+from card import *
 
 def war(player1, player2, p1card, p2card, p1name, p2name, top, turns, ans):
     while p1card == p2card:
